@@ -1,0 +1,7 @@
+LTV_THRESHOLDS = [(0.9, 2), (0.8, 1)]
+DTI_THRESHOLDS = [(0.5, 2), (0.4, 1)]
+CREDIT_SCORE_BONUS = -1
+CREDIT_SCORE_PENALTY = 1
+LOAN_TYPE_RISK = {"adjustable": 1, "fixed": -1}
+PROPERTY_TYPE_RISK = {"condo": 1}
+RISK_SCORE_RATINGS = [(2, "AAA"), (5, "BBB"), (9999, "C")]
