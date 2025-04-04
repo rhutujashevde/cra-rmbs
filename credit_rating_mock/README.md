@@ -105,7 +105,7 @@ pytest -rA test_credit_rating.py
 
 ### **2️⃣ Performance Optimization**
 - Vectorized computations using NumPy/Pandas to process large datasets efficiently.
-- **Parallel Processing**: Use `multiprocessing` or `concurrent.futures` to handle multiple mortgages simultaneously.
+- **Parallel Processing**: Use `multiprocessing` to handle multiple mortgages simultaneously.
 - **Batch Processing**: If processing large mortgage datasets, implement a streaming approach to avoid memory overflow.
 
 ### **3️⃣ API Integration**
